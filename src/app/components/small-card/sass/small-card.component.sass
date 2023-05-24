@@ -1,0 +1,30 @@
+@use 'mixins'
+    
+.container-small-card 
+    width: 700px
+    margin-bottom: 15px
+
+
+.container-small-card-content
+    display: flex
+    flex-direction: row
+
+.small-card-photo
+    width: 30%
+
+    img
+        width: 20% 
+        min-width: 200px
+        margin-right: 20px
+        
+
+.small-card-title
+    @include mixins.flex-center 
+
+    h1
+        font-size: 28px
+    
+
+
+.container-small-card-separator
+    margin-top: 10px

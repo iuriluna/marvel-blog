@@ -1,0 +1,32 @@
+@use 'mixins'
+    
+main
+    padding: 0 10px
+    margin-top: 20px
+    @include mixins.flex-center
+    flex-direction: column
+
+.content-cover
+
+    @include mixins.flex-center
+    width: 100%
+
+    img
+        border: 5px solid rgb(144,144 ,144 )
+        border-radius: 5px
+        width: 60%
+        min-width: 300px
+
+
+.content-title 
+    font-size: 19px
+    margin-top: 5px
+
+.content-description 
+    width: 50%
+    margin: 23px 0
+    text-align: justify
+
+
+.button-back
+    margin: 30px 0 10px 0

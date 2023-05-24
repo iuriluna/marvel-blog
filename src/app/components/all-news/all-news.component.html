@@ -1,0 +1,25 @@
+<div class="container-all-news" >
+
+    <div class="all-news-photo" >
+        <img 
+            src="{{photoCover}}"
+            alt=""
+            height="365px" 
+            width="607px" 
+            
+        />
+    </div>
+
+    
+
+    <div class="all-news-title" >
+     <h1><a [routerLink]="['content', Id]"> {{cardTitle}} </a></h1>
+    </div>
+
+    <div class="all-news-description" >
+        <p>
+            <a [routerLink]="['content', Id]" >
+                {{cardDescription}}
+            </a>
+        </p>
+    </div>
