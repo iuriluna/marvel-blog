@@ -4,8 +4,6 @@
 Blog feito com Angular onde o usuário pode acompanhar as notícias e clicar nas que mais desejar ler. 
 Cada parte foi desenvolvida com um componente próprio facilitando a reutilização e futura escalabilidade do projeto.
 
-## 🎨 Resultado:
-- o resultado pode ser conferido aqui: [**Repl.it**](https://iuriluna.github.io/Conversor-de-Moedas/) 
 
 
 ## 🔨Feito com:
